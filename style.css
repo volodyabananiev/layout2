@@ -62,7 +62,7 @@
   padding: 0;
 }
 
-.list__item--src--highlight {
+.list__item--highlight {
   position: absolute;
   top: 0;
   left: 0;
@@ -77,7 +77,7 @@
   transition: opacity 0.4s;
 }
 
-.list__item--src:hover .list__item--src--highlight {
+.list__item--src:hover .list__item--highlight {
   opacity: 1;
 }
 
@@ -115,7 +115,7 @@
 .lang__item:hover,
 .list__item--src:hover .list__item--text,
 .header__button:hover {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .contacts__mail {
